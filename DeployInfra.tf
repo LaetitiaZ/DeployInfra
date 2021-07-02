@@ -4,13 +4,7 @@ provider "aws" {
 
 
 terraform {
-  backend "s3" {
-    bucket = "rollandgarross3"
-    key    = "terraform.tfstate"
-    region = "us-east-1"
-	encrypt="false"
-
-	
+  backend "s3" {	
   }
 }
 
